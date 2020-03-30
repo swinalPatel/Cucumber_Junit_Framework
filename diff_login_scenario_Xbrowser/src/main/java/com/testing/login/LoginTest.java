@@ -33,7 +33,7 @@ public class LoginTest {
 	@And("^I click on \"([^\\\"]*)\"$")
 	public void I_click_on(String object) throws Exception
 	{
-//		System.out.println("I click on "+ object +" ");
+		System.out.println("I click on "+ object +" ");
 		Selenium.click(object);
 	}
 	
