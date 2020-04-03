@@ -1,23 +1,19 @@
-package com.testing.login;
-
+package com.cucumber.MavenCucumberLogin;
 
 import org.junit.Assert;
 
-import com.testing.util.WebConnector;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
+public class LoginSteps {
 
-
-public class LoginTest {
-	
-	WebConnector Selenium = WebConnector.getInstance();
+	WebConnector Selenium = new WebConnector();
 
 	@Given("^I go to \"([^\"]*)\" on \"([^\\\"]*)\"$")
 	public void  I_go_to_(String URL, String browser) throws Exception
 	{
-		System.out.println("I go to "+ URL +" on "+ browser);
+		System.out.println("I go to "+ URL +" on "+ browser+ " ");
 		Selenium.openBrowser(browser);
 		Selenium.navigate(URL);
 	}
@@ -48,8 +44,12 @@ public class LoginTest {
 		else 
 			actualResult = "Unsuccess";
 		Assert.assertEquals(expectedResult, actualResult);
-		
-		
+		}
+	
+	@And("^close the browser$")
+	public void close_the_browser() throws Exception
+	{
+		Selenium.close_Browser();
+		System.out.println("closing the browser");
 	}
-	}
-
+}

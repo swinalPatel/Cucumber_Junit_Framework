@@ -1,4 +1,4 @@
-package com.testing.util;
+package com.cucumber.MavenCucumberLogin;
 
 import java.io.FileInputStream;
 import java.util.Properties;
@@ -10,24 +10,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+
+
 public class WebConnector {
-	
+
 	Properties env = null;
 	WebDriver driver = null;
-	WebDriver Mozila = null;
-	WebDriver chrome = null;
-	WebDriver ie = null;
-	static WebConnector w;
 	
 	//create constructor 
-	private WebConnector() {
+	public WebConnector() {
 		
 		if(env==null) {
 			try {
 				env = new Properties();
-				FileInputStream fs = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\com\\testing\\config\\env.properties" );
+				FileInputStream fs = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\cucumber\\MavenCucumberLogin\\env.properties" );
 				env.load(fs);
-				System.out.println(env.getProperty("loginURL"));
+				//System.out.println(env.getProperty("loginURL"));
 				//System.out.println(env.getProperty("loginusername"));
 			}catch(Exception e) {
 				System.out.println("Error on initializing properties files");
@@ -38,18 +36,13 @@ public class WebConnector {
 	//opening browser
 	public void openBrowser(String browserType) {
 		
-		if (browserType.equals("Mozila") && Mozila == null) {
+		if (browserType.equals("Mozila") ) {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "\\Driver\\geckodriver.exe");
 			driver =  new FirefoxDriver();
-			Mozila = driver;
-	    }else if (browserType.equals("Mozila") && Mozila != null){
-			driver=Mozila;
-		}else if (browserType.equals("Chrome") && chrome == null) {
+		
+		}else if (browserType.equals("Chrome")) {
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\Driver\\chromedriver.exe");
 				driver =  new ChromeDriver();
-				chrome = driver;
-		}else if (browserType.equals("Chrome") && chrome != null){
-				driver=chrome;	
 		}else if (browserType.equals("IE")) {
 				System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+ "\\Driver\\IEDriverServer.exe");
 				driver =  new InternetExplorerDriver();
@@ -81,11 +74,11 @@ public class WebConnector {
 		else
 			return true;
 		}
-	
-	public static WebConnector getInstance() {
-		if(w==null)
-			w=new WebConnector();
-		return w;
-		}
 
+	public void close_Browser() {
+		
+		driver.close();
+		
 	}
+
+}
