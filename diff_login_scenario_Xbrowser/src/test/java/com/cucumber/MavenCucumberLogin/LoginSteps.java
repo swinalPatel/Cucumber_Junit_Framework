@@ -2,13 +2,15 @@ package com.cucumber.MavenCucumberLogin;
 
 import org.junit.Assert;
 
+import com.cucumber.MavenCucumberLogin.WebConnector;
+
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 public class LoginSteps {
 
-	WebConnector Selenium = new WebConnector();
+	WebConnector Selenium = WebConnector.getInstance();
 
 	@Given("^I go to \"([^\"]*)\" on \"([^\\\"]*)\"$")
 	public void  I_go_to_(String URL, String browser) throws Exception
@@ -46,10 +48,5 @@ public class LoginSteps {
 		Assert.assertEquals(expectedResult, actualResult);
 		}
 	
-	@And("^close the browser$")
-	public void close_the_browser() throws Exception
-	{
-		Selenium.close_Browser();
-		System.out.println("closing the browser");
-	}
+	
 }
