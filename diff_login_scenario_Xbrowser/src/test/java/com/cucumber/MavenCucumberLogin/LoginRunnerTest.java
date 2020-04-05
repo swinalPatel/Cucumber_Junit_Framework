@@ -7,8 +7,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-				features = "src/test/resource",
-				plugin= {"html:output"}
+				plugin= {"html:output"},
+				features = {"src/test/resource"},
+				tags = {"@login, @menu"}
 				)
 public class LoginRunnerTest {
 

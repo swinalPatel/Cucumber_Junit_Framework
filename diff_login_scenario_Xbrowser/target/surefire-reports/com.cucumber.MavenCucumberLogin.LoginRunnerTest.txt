@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.cucumber.MavenCucumberLogin.LoginRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 33.402 sec <<< FAILURE!
-Then login should be "Unsuccess"(| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |)  Time elapsed: 0.018 sec  <<< ERROR!
+Tests run: 39, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 46.993 sec <<< FAILURE!
+Then login should be "Unsuccess"(| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |)  Time elapsed: 0.003 sec  <<< ERROR!
 org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User or Password is not valid: 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 26848, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e41413a3-e41f-4a45-943e-835a6a8a80c9
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28212, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4c30ca86-5561-4d11-bc9a-161513974344
 *** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -21,15 +21,15 @@ Session ID: e41413a3-e41f-4a45-943e-835a6a8a80c9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
 	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
 	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ?.Then login should be "Unsuccess"(login.feature:13)
+	at ?.Then login should be "Unsuccess"(login.feature:14)
 
-| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |  Time elapsed: 0.023 sec  <<< ERROR!
+| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |  Time elapsed: 0.004 sec  <<< ERROR!
 org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User or Password is not valid: 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 26848, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e41413a3-e41f-4a45-943e-835a6a8a80c9
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28212, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4c30ca86-5561-4d11-bc9a-161513974344
 *** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -42,16 +42,16 @@ Session ID: e41413a3-e41f-4a45-943e-835a6a8a80c9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
 	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
 	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ?.Then login should be "Unsuccess"(login.feature:13)
+	at ?.Then login should be "Unsuccess"(login.feature:14)
 
-Then login should be "Unsuccess"(| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |)  Time elapsed: 0.002 sec  <<< ERROR!
+Then login should be "Unsuccess"(| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |)  Time elapsed: 0.001 sec  <<< ERROR!
 org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
   (Session info: chrome=80.0.3987.149): User or Password is not valid
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3bb207545f827b24fc0bda0bbbd530c1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3bed0a6ebf34f2abd0970e60d2c7f7b
 *** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -64,16 +64,16 @@ Session ID: 3bb207545f827b24fc0bda0bbbd530c1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
 	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
 	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ?.Then login should be "Unsuccess"(login.feature:13)
+	at ?.Then login should be "Unsuccess"(login.feature:14)
 
-| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |  Time elapsed: 0.003 sec  <<< ERROR!
+| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |  Time elapsed: 0.001 sec  <<< ERROR!
 org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
   (Session info: chrome=80.0.3987.149): User or Password is not valid
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3bb207545f827b24fc0bda0bbbd530c1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3bed0a6ebf34f2abd0970e60d2c7f7b
 *** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -86,5 +86,5 @@ Session ID: 3bb207545f827b24fc0bda0bbbd530c1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
 	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
 	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ?.Then login should be "Unsuccess"(login.feature:13)
+	at ?.Then login should be "Unsuccess"(login.feature:14)
 
