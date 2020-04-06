@@ -1,287 +1,133 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite tests="24" failures="0" name="com.cucumber.MavenCucumberLogin.LoginRunnerTest" time="0.051" errors="4" skipped="0">
-=======
-<testsuite tests="39" failures="0" name="com.cucumber.MavenCucumberLogin.LoginRunnerTest" time="0.015" errors="4" skipped="0">
->>>>>>> origin/master
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cucumber.MavenCucumberLogin.LoginRunnerTest" time="26.908" tests="24" errors="4" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin"/>
-    <property name="java.vm.version" value="25.241-b07"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser\target\test-classes;C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser\target\classes;C:\Users\swina\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\swina\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\swina\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-picocontainer\1.2.6\cucumber-picocontainer-1.2.6.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\swina\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\swina\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\swina\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-junit\1.2.6\cucumber-junit-1.2.6.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\swina\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\swina\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\swina\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\swina\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\swina\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\swina\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\swina\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\swina\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\swina\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\swina\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser"/>
-    <property name="java.runtime.version" value="1.8.0_241-b07"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\swina\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Swinal\Study\Maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_241\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Swinal\Study\Ant\apache-ant-1.9.14\bin;C:\Swinal\Study\Maven\apache-maven-3.6.3\bin;C:\Users\swina\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="maven.conf" value="C:\Swinal\Study\Maven\apache-maven-3.6.3\bin\../conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Swinal\Study\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\swina"/>
-    <property name="user.timezone" value="Europe/London"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="swina"/>
-    <property name="java.class.path" value="C:\Swinal\Study\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_241"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_241"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Swinal\Study\Maven\apache-maven-3.6.3\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin"/>
+    <property name="sun.java.command" value="C:\Users\swina\AppData\Local\Temp\surefire8051628794915053720\surefirebooter5681886067387626966.jar C:\Users\swina\AppData\Local\Temp\surefire8051628794915053720 2020-04-06T11-38-11_395-jvmRun1 surefire6866022890855554051tmp surefire_0232363901894399000tmp"/>
+    <property name="surefire.test.class.path" value="C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser\target\test-classes;C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser\target\classes;C:\Users\swina\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\swina\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\swina\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-picocontainer\1.2.6\cucumber-picocontainer-1.2.6.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\swina\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\swina\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\swina\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\swina\.m2\repository\io\cucumber\cucumber-junit\1.2.6\cucumber-junit-1.2.6.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\swina\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\swina\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\swina\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\swina\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\swina\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\swina\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\swina\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\swina\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\swina\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\swina\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\swina\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\swina"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_241"/>
+    <property name="basedir" value="C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\swina\AppData\Local\Temp\surefire8051628794915053720\surefirebooter5681886067387626966.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="swina"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\swina\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\swina\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Swinal\Study\Git_Repo_2\Cucumber_Junit_Framework\diff_login_scenario_Xbrowser"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_241\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Swinal\Study\Ant\apache-ant-1.9.14\bin;C:\Swinal\Study\Maven\apache-maven-3.6.3\bin;C:\Users\swina\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-<<<<<<< HEAD
-  <testcase classname="| Mozila | mngr253411 | YdYsytA | success |" name="Given I go to &quot;loginURL&quot; on &quot;Mozila&quot;" time="0.008"/>
-=======
-  <testcase classname="| Mozila | mngr253411 | YdYsytA | success |" name="Given I go to &quot;loginURL&quot; on &quot;Mozila&quot;" time="0.005"/>
->>>>>>> origin/master
-  <testcase classname="| Mozila | mngr253411 | YdYsytA | success |" name="And I enter &quot;loginusername&quot; as &quot;mngr253411&quot;" time="0"/>
-  <testcase classname="| Mozila | mngr253411 | YdYsytA | success |" name="And I enter &quot;loginpassword&quot; as &quot;YdYsytA&quot;" time="0"/>
-  <testcase classname="| Mozila | mngr253411 | YdYsytA | success |" name="And I click on &quot;LoginButton&quot;" time="0"/>
-  <testcase classname="| Mozila | mngr253411 | YdYsytA | success |" name="Then login should be &quot;success&quot;" time="0"/>
-  <testcase classname="| Mozila | mngr253411 | YdYsytA | success |" name="| Mozila | mngr253411 | YdYsytA | success |" time="0.001"/>
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="Given I go to &quot;loginURL&quot; on &quot;Mozila&quot;" time="0"/>
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="And I enter &quot;loginusername&quot; as &quot;xxxxxxx&quot;" time="0.001"/>
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="And I enter &quot;loginpassword&quot; as &quot;yyyyyyyy&quot;" time="0"/>
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="And I click on &quot;LoginButton&quot;" time="0"/>
-<<<<<<< HEAD
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="Then login should be &quot;Unsuccess&quot;" time="0.013">
-=======
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="Then login should be &quot;Unsuccess&quot;" time="0.003">
->>>>>>> origin/master
-    <error message="Dismissed user prompt dialog: User or Password is not valid: 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+  <testcase name="Given I go to &quot;loginURL&quot; on &quot;Mozila&quot;" classname="| Mozila | mngr253411 | YdYsytA | success |" time="0.002"/>
+  <testcase name="And I enter &quot;loginusername&quot; as &quot;mngr253411&quot;" classname="| Mozila | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="And I enter &quot;loginpassword&quot; as &quot;YdYsytA&quot;" classname="| Mozila | mngr253411 | YdYsytA | success |" time="0.001"/>
+  <testcase name="And I click on &quot;LoginButton&quot;" classname="| Mozila | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="Then login should be &quot;success&quot;" classname="| Mozila | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="" classname="| Mozila | mngr253411 | YdYsytA | success |" time="0.001"/>
+  <testcase name="Given I go to &quot;loginURL&quot; on &quot;Mozila&quot;" classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="And I enter &quot;loginusername&quot; as &quot;xxxxxxx&quot;" classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="And I enter &quot;loginpassword&quot; as &quot;yyyyyyyy&quot;" classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="And I click on &quot;LoginButton&quot;" classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="Then login should be &quot;Unsuccess&quot;" classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.008">
+    <error message="Dismissed user prompt dialog: User or Password is not valid: &#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 24612, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd630f2-fac7-4620-8ce7-75214792974d&#10;*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
+Dismissed user prompt dialog: User or Password is not valid: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19240, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62930f09-297c-4cd5-929c-d1ac4dfedd6c
-=======
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28212, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4c30ca86-5561-4d11-bc9a-161513974344
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User or Password is not valid: 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 24612, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dd630f2-fac7-4620-8ce7-75214792974d
+*** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
+]]></error>
+    <system-out><![CDATA[login should be Unsuccess 
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.009">
+    <error message="Dismissed user prompt dialog: User or Password is not valid: &#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 24612, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd630f2-fac7-4620-8ce7-75214792974d&#10;*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
+Dismissed user prompt dialog: User or Password is not valid: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19240, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62930f09-297c-4cd5-929c-d1ac4dfedd6c
-=======
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28212, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4c30ca86-5561-4d11-bc9a-161513974344
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
-	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
-	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ✽.Then login should be &quot;Unsuccess&quot;(login.feature:14)
-</error>
-    <system-out>login should be Unsuccess 
-</system-out>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 24612, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dd630f2-fac7-4620-8ce7-75214792974d
+*** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
+]]></error>
   </testcase>
-<<<<<<< HEAD
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.014">
-=======
-  <testcase classname="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" name="| Mozila | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.004">
->>>>>>> origin/master
-    <error message="Dismissed user prompt dialog: User or Password is not valid: 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19240, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62930f09-297c-4cd5-929c-d1ac4dfedd6c
-=======
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28212, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4c30ca86-5561-4d11-bc9a-161513974344
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User or Password is not valid: 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19240, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62930f09-297c-4cd5-929c-d1ac4dfedd6c
-=======
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28212, moz:profile: C:\Users\swina\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4c30ca86-5561-4d11-bc9a-161513974344
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
-	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
-	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ✽.Then login should be &quot;Unsuccess&quot;(login.feature:14)
-</error>
+  <testcase name="Given I go to &quot;loginURL&quot; on &quot;Chrome&quot;" classname="| Chrome | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="And I enter &quot;loginusername&quot; as &quot;mngr253411&quot;" classname="| Chrome | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="And I enter &quot;loginpassword&quot; as &quot;YdYsytA&quot;" classname="| Chrome | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="And I click on &quot;LoginButton&quot;" classname="| Chrome | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="Then login should be &quot;success&quot;" classname="| Chrome | mngr253411 | YdYsytA | success |" time="0"/>
+  <testcase name="" classname="| Chrome | mngr253411 | YdYsytA | success |" time="0.001"/>
+  <testcase name="Given I go to &quot;loginURL&quot; on &quot;Chrome&quot;" classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="And I enter &quot;loginusername&quot; as &quot;xxxxxxx&quot;" classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="And I enter &quot;loginpassword&quot; as &quot;yyyyyyyy&quot;" classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="And I click on &quot;LoginButton&quot;" classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0"/>
+  <testcase name="Then login should be &quot;Unsuccess&quot;" classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.001">
+    <error message="unexpected alert open: {Alert text : User or Password is not valid}&#10;  (Session info: chrome=80.0.3987.149): User or Password is not valid&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5fa1238572fd8d823475e7d9766336c7&#10;*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=80.0.3987.149): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5fa1238572fd8d823475e7d9766336c7
+*** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
+]]></error>
+    <system-out><![CDATA[login should be Unsuccess 
+]]></system-out>
   </testcase>
-  <testcase classname="| Chrome | mngr253411 | YdYsytA | success |" name="Given I go to &quot;loginURL&quot; on &quot;Chrome&quot;" time="0"/>
-  <testcase classname="| Chrome | mngr253411 | YdYsytA | success |" name="And I enter &quot;loginusername&quot; as &quot;mngr253411&quot;" time="0"/>
-  <testcase classname="| Chrome | mngr253411 | YdYsytA | success |" name="And I enter &quot;loginpassword&quot; as &quot;YdYsytA&quot;" time="0"/>
-  <testcase classname="| Chrome | mngr253411 | YdYsytA | success |" name="And I click on &quot;LoginButton&quot;" time="0"/>
-  <testcase classname="| Chrome | mngr253411 | YdYsytA | success |" name="Then login should be &quot;success&quot;" time="0"/>
-  <testcase classname="| Chrome | mngr253411 | YdYsytA | success |" name="| Chrome | mngr253411 | YdYsytA | success |" time="0"/>
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="Given I go to &quot;loginURL&quot; on &quot;Chrome&quot;" time="0"/>
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="And I enter &quot;loginusername&quot; as &quot;xxxxxxx&quot;" time="0"/>
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="And I enter &quot;loginpassword&quot; as &quot;yyyyyyyy&quot;" time="0"/>
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="And I click on &quot;LoginButton&quot;" time="0"/>
-<<<<<<< HEAD
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="Then login should be &quot;Unsuccess&quot;" time="0.003">
-=======
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="Then login should be &quot;Unsuccess&quot;" time="0.001">
->>>>>>> origin/master
-    <error message="unexpected alert open: {Alert text : User or Password is not valid}
+  <testcase name="" classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.001">
+    <error message="unexpected alert open: {Alert text : User or Password is not valid}&#10;  (Session info: chrome=80.0.3987.149): User or Password is not valid&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5fa1238572fd8d823475e7d9766336c7&#10;*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
   (Session info: chrome=80.0.3987.149): User or Password is not valid
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7C88RL8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 320fa4e9008a30763883239f710852ef
-=======
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a3bed0a6ebf34f2abd0970e60d2c7f7b
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=80.0.3987.149): User or Password is not valid
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 320fa4e9008a30763883239f710852ef
-=======
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a3bed0a6ebf34f2abd0970e60d2c7f7b
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
-	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
-	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ✽.Then login should be &quot;Unsuccess&quot;(login.feature:14)
-</error>
-    <system-out>login should be Unsuccess 
-</system-out>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5fa1238572fd8d823475e7d9766336c7
+*** Element info: {Using=xpath, value=//a[@href='addcustomerpage.php']}
+]]></error>
   </testcase>
-<<<<<<< HEAD
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.01">
-=======
-  <testcase classname="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" name="| Chrome | xxxxxxx | yyyyyyyy | Unsuccess |" time="0.001">
->>>>>>> origin/master
-    <error message="unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=80.0.3987.149): User or Password is not valid
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 320fa4e9008a30763883239f710852ef
-=======
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a3bed0a6ebf34f2abd0970e60d2c7f7b
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=80.0.3987.149): User or Password is not valid
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7C88RL8&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-<<<<<<< HEAD
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 320fa4e9008a30763883239f710852ef
-=======
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\swina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a3bed0a6ebf34f2abd0970e60d2c7f7b
->>>>>>> origin/master
-*** Element info: {Using=xpath, value=//a[@href=&apos;addcustomerpage.php&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
-	at com.cucumber.MavenCucumberLogin.WebConnector.isElementPresent(WebConnector.java:79)
-	at com.cucumber.MavenCucumberLogin.LoginSteps.login_should_be(LoginSteps.java:43)
-	at ✽.Then login should be &quot;Unsuccess&quot;(login.feature:14)
-</error>
-  </testcase>
-  <testcase classname="| Chrome | newcustomer | custnamefield |" name="Given I am logged in &quot;Chrome&quot;" time="0"/>
-  <testcase classname="| Chrome | newcustomer | custnamefield |" name="Then Check all tabs on the manager home page should be present" time="0"/>
-  <testcase classname="| Chrome | newcustomer | custnamefield |" name="And I click on &quot;newcustomer&quot; after login" time="0"/>
-  <testcase classname="| Chrome | newcustomer | custnamefield |" name="Then &quot;custnamefield&quot; element should be present" time="0"/>
-  <testcase classname="| Chrome | newcustomer | custnamefield |" name="| Chrome | newcustomer | custnamefield |" time="0"/>
-  <testcase classname="| Chrome | editcustomer | custIDfield |" name="Given I am logged in &quot;Chrome&quot;" time="0"/>
-  <testcase classname="| Chrome | editcustomer | custIDfield |" name="Then Check all tabs on the manager home page should be present" time="0"/>
-  <testcase classname="| Chrome | editcustomer | custIDfield |" name="And I click on &quot;editcustomer&quot; after login" time="0"/>
-  <testcase classname="| Chrome | editcustomer | custIDfield |" name="Then &quot;custIDfield&quot; element should be present" time="0"/>
-  <testcase classname="| Chrome | editcustomer | custIDfield |" name="| Chrome | editcustomer | custIDfield |" time="0"/>
-  <testcase classname="| Chrome | deletecustomer | custDelete |" name="Given I am logged in &quot;Chrome&quot;" time="0"/>
-  <testcase classname="| Chrome | deletecustomer | custDelete |" name="Then Check all tabs on the manager home page should be present" time="0"/>
-  <testcase classname="| Chrome | deletecustomer | custDelete |" name="And I click on &quot;deletecustomer&quot; after login" time="0"/>
-  <testcase classname="| Chrome | deletecustomer | custDelete |" name="Then &quot;custDelete&quot; element should be present" time="0"/>
-  <testcase classname="| Chrome | deletecustomer | custDelete |" name="| Chrome | deletecustomer | custDelete |" time="0"/>
 </testsuite>
