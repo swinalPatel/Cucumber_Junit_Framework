@@ -88,5 +88,20 @@ public class WebConnector {
 			w=new WebConnector();
 		return w;
 		}
+	
+	public boolean isLoggedIn() {
+		if(isElementPresent("searchText"))
+			return true;
+		else 
+			return false;
+		}
+
+	public void doDefaultLogin() {
+		//navigate("loginURL");
+		driver.findElement(By.xpath(env.getProperty("loginusername"))).sendKeys(env.getProperty("defaultusername"));
+		driver.findElement(By.xpath(env.getProperty("loginpassword"))).sendKeys(env.getProperty("defaultpassword"));
+		driver.findElement(By.xpath(env.getProperty("LoginButton"))).click();
+		
+		}
 
 	}
