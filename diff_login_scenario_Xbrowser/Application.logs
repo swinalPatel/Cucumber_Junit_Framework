@@ -1,0 +1,38 @@
+06/04/2020 16:16:01 devpinoyLogger Mozila is opening and navigating to loginURL
+06/04/2020 16:16:01 devpinoyLogger I enter loginusername as mngr253411
+06/04/2020 16:16:01 devpinoyLogger I enter loginpassword as YdYsytA
+06/04/2020 16:16:02 devpinoyLogger Then I click on LoginButton
+06/04/2020 16:16:02 devpinoyLogger login should be success
+06/04/2020 16:16:03 devpinoyLogger Mozila is opening and navigating to loginURL
+06/04/2020 16:16:03 devpinoyLogger I enter loginusername as xxxxxxx
+06/04/2020 16:16:03 devpinoyLogger I enter loginpassword as yyyyyyyy
+06/04/2020 16:16:03 devpinoyLogger Then I click on LoginButton
+06/04/2020 16:16:03 devpinoyLogger login should be Unsuccess
+06/04/2020 16:16:15 devpinoyLogger Chrome is opening and navigating to loginURL
+06/04/2020 16:16:15 devpinoyLogger I enter loginusername as mngr253411
+06/04/2020 16:16:15 devpinoyLogger I enter loginpassword as YdYsytA
+06/04/2020 16:16:16 devpinoyLogger Then I click on LoginButton
+06/04/2020 16:16:16 devpinoyLogger login should be success
+06/04/2020 16:16:16 devpinoyLogger Chrome is opening and navigating to loginURL
+06/04/2020 16:16:17 devpinoyLogger I enter loginusername as xxxxxxx
+06/04/2020 16:16:17 devpinoyLogger I enter loginpassword as yyyyyyyy
+06/04/2020 16:16:17 devpinoyLogger Then I click on LoginButton
+06/04/2020 16:16:17 devpinoyLogger login should be Unsuccess
+06/04/2020 16:16:24 devpinoyLogger login in to Chrome
+06/04/2020 16:16:24 devpinoyLogger Checking newcustomer tab is present on the home page
+06/04/2020 16:16:24 devpinoyLogger Checking editcustomer tab is present on the home page
+06/04/2020 16:16:24 devpinoyLogger Checking deletecustomer tab is present on the home page
+06/04/2020 16:16:25 devpinoyLogger clicked on the tab newcustomer
+06/04/2020 16:16:25 devpinoyLogger custnamefield element should be present
+06/04/2020 16:16:25 devpinoyLogger login in to Chrome
+06/04/2020 16:16:25 devpinoyLogger Checking newcustomer tab is present on the home page
+06/04/2020 16:16:25 devpinoyLogger Checking editcustomer tab is present on the home page
+06/04/2020 16:16:25 devpinoyLogger Checking deletecustomer tab is present on the home page
+06/04/2020 16:16:26 devpinoyLogger clicked on the tab editcustomer
+06/04/2020 16:16:26 devpinoyLogger custIDfield element should be present
+06/04/2020 16:16:26 devpinoyLogger login in to Chrome
+06/04/2020 16:16:26 devpinoyLogger Checking newcustomer tab is present on the home page
+06/04/2020 16:16:26 devpinoyLogger Checking editcustomer tab is present on the home page
+06/04/2020 16:16:26 devpinoyLogger Checking deletecustomer tab is present on the home page
+06/04/2020 16:16:26 devpinoyLogger clicked on the tab deletecustomer
+06/04/2020 16:16:26 devpinoyLogger custDelete element should be present
