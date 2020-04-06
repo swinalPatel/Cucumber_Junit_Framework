@@ -18,6 +18,7 @@ public class LoginSteps {
 		System.out.println("I go to "+ URL +" on "+ browser+ " ");
 		Selenium.openBrowser(browser);
 		Selenium.navigate(URL);
+		Selenium.log(browser + " is opening and navigating to " +URL);
 	}
 	
 	@And("^I enter \"([^\\\"]*)\" as \"([^\\\"]*)\"$")
@@ -25,6 +26,7 @@ public class LoginSteps {
 	{
 		System.out.println("I enter "+ object +" as "+ text +" ");
 		Selenium.field(object, text);
+		Selenium.log("I enter " + object+ " as " + text);
 		
 	}
 	
@@ -33,11 +35,13 @@ public class LoginSteps {
 	{
 		System.out.println("I click on "+ object +" ");
 		Selenium.click(object);
+		Selenium.log("Then I click on " + object);
 	}
 	
 	@Then("^login should be \"([^\\\"]*)\"$")
 	public void login_should_be(String expectedResult) throws Exception
 	{
+		Selenium.log("login should be " + expectedResult);
 		System.out.println("login should be "+ expectedResult +" ");
 		String actualResult = null;
 		boolean result = Selenium.isElementPresent("searchText");
@@ -46,7 +50,8 @@ public class LoginSteps {
 		else 
 			actualResult = "Unsuccess";
 		Assert.assertEquals(expectedResult, actualResult);
+		
+
 		}
-	
-	
+		
 }

@@ -1,6 +1,6 @@
 package com.cucumber.MavenCucumberLogin;
 
-
+import org.apache.log4j.Logger;
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -12,6 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class WebConnector {
+	
+	Logger APPLICATION_LOGS = Logger.getLogger("devpinoyLogger");
 	
 	Properties env = null;
 	WebDriver driver = null;
@@ -56,7 +58,7 @@ public class WebConnector {
 				driver =  new InternetExplorerDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		}
 	
 	//Navigating to the URL
@@ -103,5 +105,11 @@ public class WebConnector {
 		driver.findElement(By.xpath(env.getProperty("LoginButton"))).click();
 		
 		}
+	//log4j loggin function
+	public void log(String msg) {
+		APPLICATION_LOGS.debug(msg);
+	}
+
+	
 
 	}
